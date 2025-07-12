@@ -1,6 +1,8 @@
 ## セットアップ手順
 
-詳細は [「スキーマ変更で障害が起きたら...」から解放！Supabase CLIで安心チーム開発](https://shiftb.dev/me/blog/TyuN4ipm_fA0)を参照してください。
+詳細は [「スキーマ変更で障害が起きたら...」から解放！Supabase CLIで安心チーム開発](https://shiftb.dev/blog/TyuN4ipm_fA0)を参照してください。
+
+なお、Docker がセットアップされていることが前提となります。
 
 ### 1. リポジトリのクローン
 
@@ -9,12 +11,7 @@ git clone https://github.com/shiftb-hub/tasq-sb-dev.git
 cd tasq-sb-dev
 ```
 
-上記でクローンすると、カレントフォルダのなかに `tasq-sb-dev` というフォルダが新規作成されて展開されます。別名にしたいときは、たとえば `hoge` というフォルダにクローンしたいときは、次のようにしてください。
-
-```
-git clone https://github.com/shiftb-hub/tasq-sb-dev.git hoge
-cd hoge
-```
+上記でクローンすると、カレントフォルダのなかに `tasq-sb-dev` というフォルダが新規作成されて展開されます。
 
 ### 2. 依存関係のインストール
 
@@ -24,7 +21,7 @@ npm i
 
 ### 3. 起動
 
-次のコマンドで Supabase を起動します。
+次のコマンドで Supabase を起動します。初回は時間がかかります。
 
 ```bash
 npx supabase start
