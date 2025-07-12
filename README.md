@@ -52,8 +52,11 @@ Next.js 環境で、Prisma からローカルの Supabase に接続するには 
 DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:54322/postgres
 DIRECT_URL=postgresql://postgres:postgres@127.0.0.1:54322/postgres
 NEXT_PUBLIC_SUPABASE_URL=http://127.0.0.1:54321
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJxxxxxxxxxxxx
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhb.....
+SB_SERVICE_ROLE_KEY=eyJhb.....
 ```
+
+`SB_SERVICE_ROLE_KEY` は、開発環境でユーザ関連のシーディング処理を実行するために設定します。
 
 ### 5. 停止
 
