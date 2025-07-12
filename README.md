@@ -5,14 +5,14 @@
 ### 1. リポジトリのクローン
 
 ```
-git clone https://github.com/shiftb-hub/tasq.git
-cd tasq
+git clone https://github.com/shiftb-hub/tasq-sb-dev.git
+cd tasq-sb-dev
 ```
 
-上記でクローンすると、カレントフォルダのなかに `tasq` というフォルダが新規作成されて展開されます。別名にしたいときは、たとえば `hoge` というフォルダにクローンしたいときは、次のようにしてください。
+上記でクローンすると、カレントフォルダのなかに `tasq-sb-dev` というフォルダが新規作成されて展開されます。別名にしたいときは、たとえば `hoge` というフォルダにクローンしたいときは、次のようにしてください。
 
 ```
-git clone https://github.com/shiftb-hub/tasq.git hoge
+git clone https://github.com/shiftb-hub/tasq-sb-dev.git hoge
 cd hoge
 ```
 
